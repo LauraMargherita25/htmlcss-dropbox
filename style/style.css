@@ -58,6 +58,9 @@ header .nav-bar a{
     color: black;
 }
 
+.start{
+    float: right;
+}
 
 
 /* /header */
