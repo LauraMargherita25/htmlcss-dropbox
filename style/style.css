@@ -24,13 +24,14 @@ header{
 }
 
 
-/* header .header-col-left{
+header .header-col-left{
+    width: 30%;
     float: left;
 }
 
 header .header-col-right{
     float: right;
-} */
+}
 
 header img{
     height: 30px;
