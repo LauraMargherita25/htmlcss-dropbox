@@ -60,6 +60,10 @@ header .nav-bar a{
 
 .start{
     float: right;
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    padding: .3rem;
 }
 
 
