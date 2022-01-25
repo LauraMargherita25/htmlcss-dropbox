@@ -23,19 +23,12 @@ header{
     clear: both;
 }
 
-
-header .header-col-left{
-    width: 30%;
-    float: left;
-}
-
-header .header-col-right{
-    float: right;
-}
-
 header img{
     height: 30px;
     vertical-align: middle;
+    position: relative;
+    bottom: 2px;
+    float: left;
 }
 
 header .nav-bar{
@@ -46,6 +39,14 @@ header .nav-bar{
 
 header .nav-bar ul{
     list-style: none;
+}
+
+nav > ul:first-child{
+    float: left;
+}
+
+nav > ul:last-child{
+    float: right;
 }
 
 header .nav-bar li{
