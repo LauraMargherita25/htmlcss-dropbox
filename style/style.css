@@ -46,6 +46,11 @@ header{
     line-height: 30px;
 }
 
+.nav-bar .logo-img{
+    line-height: 30px;
+    vertical-align: middle;
+}
+
 .nav-bar ul{
     list-style: none;
     display: inline-block;
