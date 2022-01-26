@@ -47,13 +47,11 @@ header{
 }
 
 .nav-bar .logo-img{
-    line-height: 30px;
-    vertical-align: middle;
+   
 }
 
 .nav-bar ul{
     list-style: none;
-    display: inline-block;
 }
 
 .nav-bar li{
@@ -63,6 +61,15 @@ header{
 .nav-bar a{
     text-decoration: none;
     color: black;
+    display: inline-block;
+}
+
+nav > ul:first-child{
+    float: left;
+}
+
+nav > ul:last-child{
+    float: right;
 }
 
 /* header .logo-img{
