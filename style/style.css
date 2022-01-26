@@ -114,6 +114,12 @@ nav > ul:last-child{
 
 .hero .free-trial-box p{
     padding: 1rem 0;
+    float: left;
+}
+
+.hero .hero-img{
+    width: 1000px;
+    float: right;
 }
 /* 
 
