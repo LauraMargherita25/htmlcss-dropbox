@@ -36,20 +36,33 @@ header{
     width: 100%;
     padding: 1.5rem 1rem;
     position: fixed;
-    z-index: 1000;
     top: 0;
     left: 0;
-    background-color: white;
+    z-index: 1000;
+    background-color: purple;
 }
 
+.nav-bar{
 
+}
 
-header .logo-img{
-    height: 30px;
+.nav-bar ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-bar li{
+    display: inline-block;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+/* header .logo-img{
+    line-height: 30px;
     vertical-align: middle;
-    position: relative;
-    bottom: 2px;
-    float: left;
 }
 
 header .nav-bar{
@@ -78,13 +91,13 @@ header .nav-bar li{
 header .nav-bar a{
     text-decoration: none;
     color: black;
-}
+} */
 
 
 /* /header */
 
 /* main */
-main .intro-section{
+/* main .intro-section{
     width: 100%;
     background-color: #b4d0e7;
 }
@@ -106,7 +119,7 @@ main .intro-section{
 
 .intro-section .blue-btn{
     margin-top: 2rem;
-}
+} */
 
 
 
