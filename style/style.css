@@ -30,7 +30,14 @@
     clear: both;
 }
 
+.container1500{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 /* /common */
+
+
 
 /* header */
 body{
@@ -85,55 +92,31 @@ nav > ul:last-child{
     color: black;
     display: inline-block;
 }
-
-
-
-/* header .logo-img{
-    line-height: 30px;
-    vertical-align: middle;
-}
-
-header .nav-bar{
-    line-height: 30px;
-    font-size: 0;
-}
-
-header .nav-bar ul{
-    list-style: none;
-}
-
-nav > ul:first-child{
-    float: left;
-}
-
-nav > ul:last-child{
-    float: right;
-}
-
-header .nav-bar li{
-    display: inline-block;
-    padding-left: 2rem;
-    font-size: 20px;
-}
-
-header .nav-bar a{
-    text-decoration: none;
-    color: black;
-} */
-
-
 /* /header */
 
+
+
 /* main */
-/* main .intro-section{
+.hero{
     width: 100%;
     background-color: #b4d0e7;
 }
 
-.intro-section .lateral-spaces{
-    max-width: 1700px;
-    margin: 0 auto;
+.hero h1{
+    font-size: 90px;
+    padding-top: 2rem;
 }
+
+.hero .free-trial-box{
+    width: 430px;
+    padding-top: 2rem;
+}
+
+.hero .free-trial-box p{
+    padding: 1rem 0;
+}
+/* 
+
 
 .intro-section h1{
     font-size: 5rem;
