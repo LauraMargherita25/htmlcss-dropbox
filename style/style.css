@@ -9,12 +9,23 @@
     font-family: sans-serif;
     font-size: 20px;
 }
+/* /css reset */
+
+/* common */
+.blue-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    padding: .3rem;
+}
+
+/* /common */
 
 /* header */
 header{
     width: 100%;
     padding: 1.5rem 1rem;
-    background-color: aqua;
+    position: fixed;
 }
 
 .clearfix::after{
@@ -32,9 +43,8 @@ header img{
 }
 
 header .nav-bar{
-    display: inline-block;
     line-height: 30px;
-    vertical-align: middle;
+    font-size: 0;
 }
 
 header .nav-bar ul{
@@ -51,6 +61,8 @@ nav > ul:last-child{
 
 header .nav-bar li{
     display: inline-block;
+    padding-left: 2rem;
+    font-size: 20px;
 }
 
 header .nav-bar a{
@@ -58,13 +70,49 @@ header .nav-bar a{
     color: black;
 }
 
-.start{
-    float: right;
-    text-decoration: none;
-    color: white;
-    background-color: #0061ff;
-    padding: .3rem;
+
+/* /header */
+
+/* main */
+main .intro-section{
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.intro-section .lateral-spaces{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.intro-section h1{
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+.intro-section .article-box{
+    max-width: 30%;
+    padding: 2rem 0;
+}
+
+.intro-section .blue-btn{
+    margin-top: 2rem;
 }
 
 
-/* /header */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /main */
