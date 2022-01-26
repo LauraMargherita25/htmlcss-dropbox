@@ -35,8 +35,8 @@
     margin: 0 auto;
 }
 
-.container1200{
-    max-width: 1200px;
+.container1300{
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -44,14 +44,26 @@
     margin-top: 5rem;
 }
 
+.pt1{
+    padding-top: 1rem;
+}
+
+.v-center{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.font-size15px{
+    font-size: 15px;
+}
 /* /common */
 
 
 
 /* header */
-body{
-    margin-top: 5rem;
-}
 
 header{
     width: 100%;
@@ -60,16 +72,12 @@ header{
     top: 0;
     left: 0;
     z-index: 1000;
-    background-color: purple;
+    background-color: #ffffff;
 }
 
 .nav-bar{
     max-width: 1900px;
     margin: 0 auto;
-}
-
-.nav-bar ul{
-    list-style: none;
 }
 
 nav > ul:first-child{
@@ -101,6 +109,7 @@ nav > ul:last-child{
     color: black;
     display: inline-block;
 }
+
 /* /header */
 
 
@@ -166,13 +175,56 @@ nav > ul:last-child{
     margin-bottom: 3rem;
 }
 
+.vertical-tier{
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
 
+.tier{
+    width: calc((100% - 6rem) / 3);
+    height: 700px;
+    border: 1px solid gray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1rem;
+    float: left;
+}
 
+.tier-header{
+    padding: .5rem 0;
+    border-bottom: 1px solid gray;
+}
 
+.tier-clm{
+    padding: 0 1rem;
+}
 
+.tier-clm .period{
+    color: gray;
 
+}
 
+.tier ul{
+    padding: 1rem 0;
+}
 
+.tier .little-hr{
+    width: 100px;
+    border-bottom: 1px solid gray;
+}
 
+.horizontal-tier{
+    margin-top: 2rem;
+    width: 100%;
+    border: 1px solid gray;
+}
 
+.btn-ht{
+    float: right;
+    margin-top: 1rem;
+}
+
+.float-left{
+    float: left;
+}
 /* /main */
