@@ -17,6 +17,7 @@
     color: white;
     background-color: #0061ff;
     padding: .3rem;
+    line-height: 1.2;
 }
 
 .blue-btn:hover{
@@ -32,9 +33,13 @@
 /* /common */
 
 /* header */
+body{
+    margin-top: 5rem;
+}
+
 header{
     width: 100%;
-    padding: 1.5rem 1rem;
+    line-height: 5rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -43,25 +48,12 @@ header{
 }
 
 .nav-bar{
-    line-height: 30px;
-}
-
-.nav-bar .logo-img{
-   
+    max-width: 1900px;
+    margin: 0 auto;
 }
 
 .nav-bar ul{
     list-style: none;
-}
-
-.nav-bar li{
-    display: inline-block;
-}
-
-.nav-bar a{
-    text-decoration: none;
-    color: black;
-    display: inline-block;
 }
 
 nav > ul:first-child{
@@ -71,6 +63,30 @@ nav > ul:first-child{
 nav > ul:last-child{
     float: right;
 }
+
+.nav-bar .ul-left li{
+    padding-right: 2rem;
+}
+
+.nav-bar .ul-right li{
+    padding-left: 2rem;
+}
+
+.nav-bar .logo-img{
+    vertical-align: -4px;
+}
+
+.nav-bar li{
+    display: inline-block;
+}
+
+.nav-bar .nav-btn{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+
 
 /* header .logo-img{
     line-height: 30px;
