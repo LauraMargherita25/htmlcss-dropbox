@@ -35,6 +35,15 @@
     margin: 0 auto;
 }
 
+.container1200{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mt5{
+    margin-top: 5rem;
+}
+
 /* /common */
 
 
@@ -97,6 +106,8 @@ nav > ul:last-child{
 
 
 /* main */
+
+/* hero section */
 .hero{
     width: 100%;
     background-color: #b4d0e7;
@@ -110,41 +121,50 @@ nav > ul:last-child{
 .hero .free-trial-box{
     width: 430px;
     padding-top: 2rem;
+    float: left;
 }
 
 .hero .free-trial-box p{
     padding: 1rem 0;
-    float: left;
 }
 
 .hero .hero-img{
     width: 1000px;
     float: right;
-}
-/* 
-
-
-.intro-section h1{
-    font-size: 5rem;
-    padding-top: 2rem;
+    position: relative;
+    top: 100px;
 }
 
-.intro-section .article-box{
-    max-width: 30%;
-    padding: 2rem 0;
+.hero .free-trial-box i{
+    font-size: 100px;
 }
 
-.intro-section .blue-btn{
-    margin-top: 2rem;
-} */
 
+/* tariff plan */
+.tariff-plan h2{
+    font-size: 50px;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
 
+.fake-btn{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+}
 
+.btn-blue{
+    border: 5px solid #0061ff;
+}
 
+.btn-gray{
+    border: 1px solid gray;
+}
 
-
-
-
+.radio-btn{
+    margin-bottom: 3rem;
+}
 
 
 
