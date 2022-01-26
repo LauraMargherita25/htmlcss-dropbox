@@ -19,13 +19,8 @@
     padding: .3rem;
 }
 
-/* /common */
-
-/* header */
-header{
-    width: 100%;
-    padding: 1.5rem 1rem;
-    position: fixed;
+.blue-btn:hover{
+    background-color: #3582fd;
 }
 
 .clearfix::after{
@@ -34,7 +29,22 @@ header{
     clear: both;
 }
 
-header img{
+/* /common */
+
+/* header */
+header{
+    width: 100%;
+    padding: 1.5rem 1rem;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+
+
+header .logo-img{
     height: 30px;
     vertical-align: middle;
     position: relative;
