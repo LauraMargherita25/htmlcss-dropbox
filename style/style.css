@@ -76,6 +76,10 @@ h2{
     font-size: 50px;
     padding-bottom: 3rem;
 }
+
+.of-auto{
+    overflow: auto;
+}
 /* /common */
 
 
@@ -286,10 +290,26 @@ nav > ul:last-child{
 .customer-tag{
     width: 250px;
     height: 250px;
+    position: relative;
 }
 
+.customer-tag  svg{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: ;
+}
+
+.customer-tag  svg path{
+    fill: white;
+}
+
+
 .designit{
-    background-color: #a2d39b;    
+    background-color: #a2d39b; 
+    border: 10px solid #d0e9cd;   
 }
 
 .asu{
@@ -322,6 +342,18 @@ nav > ul:last-child{
 
 .customer-focus{
     width: calc(100% - (500px * 2));
+    height: 500px;
     background-color: #f5f5f5;
+    padding: 2rem;
+}
+
+.customer-focus img{
+    width: 250px;
+}
+
+.customer-focus hr{
+    width: 200px;
+    color: lightgray;
+    margin: 2rem 0;
 }
 /* /main */
