@@ -299,7 +299,6 @@ nav > ul:last-child{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: ;
 }
 
 .customer-tag  svg path{
@@ -355,5 +354,23 @@ nav > ul:last-child{
     width: 200px;
     color: lightgray;
     margin: 2rem 0;
+}
+
+
+
+.cta{
+    background-color: #b4d0e7;
+    padding: 5rem;
+}
+
+.cta h2{
+    color: #61082b;
+}
+
+.cta a{
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    padding: .5rem 2.5rem;
 }
 /* /main */
