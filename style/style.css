@@ -285,7 +285,11 @@ nav > ul:last-child{
     padding: 1rem 0;
 }
 
-.tier p{
+.tier li{
+    line-height: 1.5rem;
+}
+
+.tier .list-txt{
     padding-left: 1rem;
 }
 
@@ -293,10 +297,15 @@ nav > ul:last-child{
     position: absolute;
 }
 
-.tier .little-hr{
+.tier .tier-btn{
+    padding: .5rem 3rem;;
+}
+
+.tier hr{
     width: 100px;
     border-bottom: 1px solid gray;
 }
+
 
 .horizontal-tier{
     margin-top: 2rem;
@@ -506,11 +515,14 @@ footer{
     margin: 0 2rem;
 }
 
-
 .link-box a{
     font-size: 15px;
     color: white;
     line-height: 1.5rem;
+}
+
+.link-box a:hover{
+    text-decoration: underline;
 }
 
 .link-utili hr{
