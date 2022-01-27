@@ -97,6 +97,8 @@ hr{
 
 header{
     width: 100%;
+    min-width: 1190px;
+    padding: 0 1rem;
     line-height: 5rem;
     position: fixed;
     top: 0;
@@ -427,9 +429,4 @@ footer{
 .link-utili hr{
     color: white;
 }
-
-
-
-
-
 /* /footer */
