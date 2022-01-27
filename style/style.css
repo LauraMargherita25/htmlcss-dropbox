@@ -97,7 +97,7 @@ hr{
 
 
 
-/* header */
+/* ### header ### */
 
 header{
     height: 5rem;
@@ -181,11 +181,11 @@ nav > ul:last-child{
 .dd-content a:hover{
     background-color: #f1f1f1
  }
-/* /header */
+/* ### /header ### */
 
 
 
-/* main */
+/* ### main ### */
 
 /* hero section */
 .hero{
@@ -292,6 +292,9 @@ nav > ul:last-child{
     margin-top: 1rem;
 }
 
+
+
+/* inteeract with us */
 .interact-img {
     width: 50%;
 }
@@ -309,6 +312,9 @@ nav > ul:last-child{
     border: 1px solid black;
 }
 
+
+
+/* services */
 .grid{
     margin-left: -2rem;
     margin-right: -2rem;
@@ -332,14 +338,17 @@ nav > ul:last-child{
 
 
 
+
+/* feed */
+
 .customer-container{
     width: 30vw;
-    height: 60vh;
+    height: 30vw;
 }
 
 .customer-tag{
     width: 15vw;
-    height: 30vh;
+    height: 15vw;
     position: relative;
 }
 
@@ -390,8 +399,8 @@ nav > ul:last-child{
 }
 
 .customer-focus{
-    width: 39vw;
-    height: 60vh;
+    width: calc(100% - (30vw * 2));
+    height: 30vw;
     background-color: #f5f5f5;
     padding: 2rem;
 }
@@ -403,6 +412,11 @@ nav > ul:last-child{
 .customer-focus hr{
     color: lightgray;
 }
+
+
+
+
+
 
 
 
