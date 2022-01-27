@@ -152,6 +152,34 @@ nav > ul:last-child{
     border-bottom: 2px solid black;
 }
 
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dd-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dd-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dd-content{
+    display: block;
+}
+
+.dd-content a:hover{
+    background-color: #f1f1f1
+ }
 /* /header */
 
 
@@ -402,9 +430,23 @@ nav > ul:last-child{
 }
 
 .faq .question{
+    width: 100%;
     padding: 2rem 0;
     border-top: 1px solid gray;
+    position: relative;
+    display: inline-block;
 }
+
+/* .dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+.question:hover .dropdown-content {
+    display: block;
+  } */
 
 .faq .question:last-child{
     border-bottom: 1px solid gray;
