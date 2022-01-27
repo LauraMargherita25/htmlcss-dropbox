@@ -12,17 +12,25 @@
 /* /css reset */
 
 /* common */
-.blue-btn{
-    text-decoration: none;
-    color: white;
-    background-color: #0061ff;
-    padding: .3rem;
-    line-height: 1.2;
+
+ul{
+    list-style: none;
 }
 
-.blue-btn:hover{
-    background-color: #3582fd;
+a{
+    text-decoration: none;
 }
+
+h2{
+    font-size: 50px;
+    padding-bottom: 3rem;
+}
+
+hr{
+    width: 200px;
+    margin: 2rem 0;
+}
+
 
 .clearfix::after{
     content:"";
@@ -56,14 +64,6 @@
     text-align: center;
 }
 
-ul{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-}
-
 .font-size15px{
     font-size: 15px;
 }
@@ -76,22 +76,24 @@ a{
     float: right;
 }
 
-h2{
-    font-size: 50px;
-    padding-bottom: 3rem;
-}
-
 .of-auto{
     overflow: auto;
 }
 
-hr{
-    width: 200px;
-    margin: 2rem 0;
+.blue-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    padding: .3rem;
+    line-height: 1.2;
 }
 
-.fas .fa-check{
-    fill: blue;
+.blue-btn:hover{
+    background-color: #3582fd;
+}
+
+.fa-check{
+    color: #0061ff;
 }
 /* /common */
 
@@ -225,11 +227,17 @@ nav > ul:last-child{
     padding-top: 5rem;
 }
 
+.option{
+    display: inline-block;
+    line-height: 1rem;
+}
+
 .fake-btn{
     width: 20px;
     height: 20px;
     border-radius: 100%;
     display: inline-block;
+    vertical-align: -2px;
 }
 
 .btn-blue{
@@ -277,6 +285,14 @@ nav > ul:last-child{
     padding: 1rem 0;
 }
 
+.tier p{
+    padding-left: 1rem;
+}
+
+.tier .list-icon{
+    position: absolute;
+}
+
 .tier .little-hr{
     width: 100px;
     border-bottom: 1px solid gray;
@@ -291,6 +307,11 @@ nav > ul:last-child{
 .btn-ht{
     margin-top: 1rem;
 }
+
+
+
+
+
 
 
 
