@@ -89,6 +89,10 @@ hr{
     width: 200px;
     margin: 2rem 0;
 }
+
+.fas .fa-check{
+    fill: blue;
+}
 /* /common */
 
 
