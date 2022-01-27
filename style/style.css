@@ -373,4 +373,21 @@ nav > ul:last-child{
     background-color: #ffffff;
     padding: .5rem 2.5rem;
 }
+
+
+
+
+
+.faq{
+    margin-bottom: 5rem;
+}
+
+.faq .question{
+    padding: 2rem 0;
+    border-top: 1px solid gray;
+}
+
+.faq .question:last-child{
+    border-bottom: 1px solid gray;
+}
 /* /main */
