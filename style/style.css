@@ -21,14 +21,22 @@ a{
     text-decoration: none;
 }
 
+h1{
+    font-size: 70px;
+}
+
 h2{
-    font-size: 50px;
-    padding-bottom: 3rem;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
 }
 
 hr{
-    width: 200px;
+    width: 100px;
     margin: 2rem 0;
+    border: 1px solid #d0d0d3;
 }
 
 
@@ -60,7 +68,7 @@ hr{
     padding-bottom: 1rem;
 }
 
-.v-center{
+.t-center{
     text-align: center;
 }
 
@@ -190,7 +198,6 @@ nav > ul:last-child{
 }
 
 .hero h1{
-    font-size: 70px;
     padding: 2rem 0;
 }
 
@@ -222,19 +229,25 @@ nav > ul:last-child{
 
 
 
+
 /* tariff plan */
 .tariff-plan h2{
     padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 
-.radio-btn{
+
+.tariff-plan .radio-btn{
     margin-bottom: 3rem;
 }
 
-.option{
+.tariff-plan .billing-cycle{
     display: inline-block;
-    line-height: 1rem;
+}
+
+.radio-btn .billing-cycle:last-child{
+    margin-left: 2rem;
 }
 
 .fake-btn{
@@ -250,31 +263,32 @@ nav > ul:last-child{
 }
 
 .border-gray{
-    border: 1px solid gray;
+    border: 1px solid #d0d0d3;
 }
 
 
-.vertical-tier{
-    margin-left: -2rem;
-    margin-right: -2rem;
+
+
+.tariff-plan .vertical-tiers{
+    margin-left: -1rem;
+    margin-right: -1rem;
 }
 
-.tier{
-    width: calc((100% - 12rem) / 3);
-    height: 800px;
-    border: 1px solid gray;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    float: left;
+.vertical-tiers .tier{
+    width: calc((100% - 6rem) / 3);
+    height: 1000px;
+    border: 1px solid #d0d0d3;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .tier-header{
     padding: .5rem 0;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 .tier-clm{
-    padding: 0 1rem;
+    padding: 2rem 1.5rem;
 }
 
 .tier-clm .period{
@@ -282,11 +296,12 @@ nav > ul:last-child{
 }
 
 .tier ul{
-    padding: 1rem 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .tier li{
-    line-height: 2rem;
+    font-size: 14px;
 }
 
 .tier .list-txt{
@@ -301,20 +316,27 @@ nav > ul:last-child{
     display: block;
 }
 
-.tier hr{
-    width: 100px;
-    border-bottom: 1px solid gray;
-}
-
 
 .horizontal-tier{
     margin-top: 2rem;
     width: 100%;
-    border: 1px solid gray;
+    border: 1px solid #d0d0d3;
 }
 
-.btn-ht{
-    margin-top: 1rem;
+.horizontal-tier .float-left{
+    width: 70%;
+}
+
+.horizontal-tier .float-right{
+    width: 30%;
+}
+
+.horizontal-tier p{
+    font-size: 14px;
+}
+
+.horizontal-tier .blue-btn{
+    display: block;
 }
 
 
