@@ -509,6 +509,7 @@ nav > ul:last-child{
 .dropdown-content {
     display: none;
     margin-top: 4rem;
+    color: gray;
 }
   
 .question:hover .dropdown-content{
@@ -538,6 +539,8 @@ nav > ul:last-child{
 .faq .question:last-child{
     border-bottom: 1px solid gray;
 }
+
+
 /* /main */
 
 
@@ -569,6 +572,31 @@ footer{
 }
 
 .link-utili hr{
-    color: white;
+    border-color: white;
+}
+
+footer p{
+    line-height: 16px;
+}
+
+.europe::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f7a2";
+}
+
+.sort-up::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f0de";
+    vertical-align: -4px;
 }
 /* /footer */
