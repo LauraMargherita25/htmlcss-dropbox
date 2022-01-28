@@ -7,12 +7,11 @@
 
 :root{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
 }
 /* /css reset */
 
-/* common */
 
+/* common */
 ul{
     list-style: none;
 }
@@ -38,13 +37,13 @@ hr{
     clear: both;
 }
 
-.container1500{
-    max-width: 1500px;
+.container1300{
+    max-width: 1300px;
     margin: 0 auto;
 }
 
-.container1300{
-    max-width: 1300px;
+.container1000{
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -64,10 +63,6 @@ hr{
     text-align: center;
 }
 
-.font-size15px{
-    font-size: 15px;
-}
-
 .float-left{
     float: left;
 }
@@ -81,7 +76,6 @@ hr{
 }
 
 .blue-btn{
-    text-decoration: none;
     color: white;
     background-color: #0061ff;
     padding: .3rem;
@@ -196,35 +190,41 @@ nav > ul:last-child{
 }
 
 .hero h1{
-    font-size: 90px;
-    padding-top: 2rem;
+    font-size: 70px;
+    padding: 2rem 0;
 }
 
-.hero .free-trial-box{
-    width: 430px;
-    padding-top: 2rem;
+.hero .hero-txt{
+    width: 30%;
     float: left;
 }
 
-.hero .free-trial-box p{
+.hero .hero-txt p{
     padding: 1rem 0;
 }
 
-.hero .hero-img{
-    width: 1000px;
-    float: right;
-    position: relative;
-    top: 100px;
+.hero .hero-txt i{
+    font-size: 100px;
 }
 
-.hero .free-trial-box i{
-    font-size: 100px;
+.hero .hero-img{
+    width: 60%;
+    float: right;
+    margin-bottom: -4rem;
+    /* --oppure-- */
+    /*position: relative;
+    top: 100px; */
 }
 
 
 /* tariff plan */
 .tariff-plan h2{
     padding-top: 5rem;
+}
+
+
+.radio-btn{
+    margin-bottom: 3rem;
 }
 
 .option{
@@ -237,33 +237,29 @@ nav > ul:last-child{
     height: 20px;
     border-radius: 100%;
     display: inline-block;
-    vertical-align: -2px;
+    vertical-align: -4px;
 }
 
-.btn-blue{
+.border-blue{
     border: 5px solid #0061ff;
 }
 
-.btn-gray{
+.border-gray{
     border: 1px solid gray;
 }
 
-.radio-btn{
-    margin-bottom: 3rem;
-}
 
 .vertical-tier{
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
 }
 
 .tier{
-    width: calc((100% - 6rem) / 3);
-    height: 700px;
+    width: calc((100% - 12rem) / 3);
+    height: 800px;
     border: 1px solid gray;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    line-height: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     float: left;
 }
 
@@ -278,7 +274,6 @@ nav > ul:last-child{
 
 .tier-clm .period{
     color: gray;
-
 }
 
 .tier ul{
@@ -286,11 +281,11 @@ nav > ul:last-child{
 }
 
 .tier li{
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 .tier .list-txt{
-    padding-left: 1rem;
+    padding-left: 1.5rem;
 }
 
 .tier .list-icon{
@@ -298,7 +293,7 @@ nav > ul:last-child{
 }
 
 .tier .tier-btn{
-    padding: .5rem 3rem;;
+    padding: .5rem 2rem;;
 }
 
 .tier hr{
