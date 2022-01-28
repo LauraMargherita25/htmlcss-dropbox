@@ -7,6 +7,7 @@
 
 :root{
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 /* /css reset */
 
@@ -208,7 +209,6 @@ nav > ul:last-child{
 .hero .hero-txt .hero-arrow{
     font-size: 48px;
     color: black;
-    transition-duration: 3s;
 }
 
 .hero .hero-img{
@@ -218,6 +218,8 @@ nav > ul:last-child{
     /*position: relative;
     top: 100px; */
 }
+
+
 
 
 /* tariff plan */
