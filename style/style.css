@@ -268,7 +268,6 @@ nav > ul:last-child{
 
 
 
-
 .tariff-plan .vertical-tiers{
     margin-left: -1rem;
     margin-right: -1rem;
@@ -316,6 +315,12 @@ nav > ul:last-child{
     display: block;
 }
 
+.tier a{
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+
 
 .horizontal-tier{
     margin-top: 2rem;
@@ -342,10 +347,6 @@ nav > ul:last-child{
 
 
 
-
-
-
-
 /* inteeract with us */
 .interact-img {
     width: 50%;
@@ -358,7 +359,6 @@ nav > ul:last-child{
 }
 
 .interact-btn{
-    text-decoration: none;
     color: black;
     padding: .5rem 1rem;
     border: 1px solid black;
@@ -366,7 +366,12 @@ nav > ul:last-child{
 
 
 
+
 /* services */
+.services h2{
+    padding-bottom: 3rem;
+}
+
 .grid{
     margin-left: -2rem;
     margin-right: -2rem;
@@ -384,7 +389,12 @@ nav > ul:last-child{
     width: 100%;
 }
 
-.reviews a{
+
+
+
+/* feed */
+.feed a{
+    text-decoration: underline;
     color: #0061ff;
 }
 
@@ -392,7 +402,6 @@ nav > ul:last-child{
 
 
 /* feed */
-
 .customer-container{
     width: 30vw;
     height: 30vw;
@@ -461,17 +470,10 @@ nav > ul:last-child{
     width: 250px;
 }
 
-.customer-focus hr{
-    color: lightgray;
-}
 
 
 
-
-
-
-
-
+/* cta */
 .cta{
     background-color: #b4d0e7;
     padding: 5rem;
@@ -482,7 +484,6 @@ nav > ul:last-child{
 }
 
 .cta a{
-    text-decoration: none;
     color: black;
     background-color: #ffffff;
     padding: .5rem 2.5rem;
@@ -491,7 +492,7 @@ nav > ul:last-child{
 
 
 
-
+/* faq */
 .faq{
     margin-bottom: 5rem;
 }
