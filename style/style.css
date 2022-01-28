@@ -315,7 +315,7 @@ nav > ul:last-child{
     display: block;
 }
 
-.tier a{
+.tier p a{
     text-decoration: underline;
     color: #0061ff;
 }
@@ -401,7 +401,7 @@ nav > ul:last-child{
 
 
 
-/* feed */
+/* customer */
 .customer-container{
     width: 30vw;
     height: 30vw;
@@ -459,6 +459,7 @@ nav > ul:last-child{
     background-color: #ffd830;
 }
 
+
 .customer-focus{
     width: calc(100% - (30vw * 2));
     height: 30vw;
@@ -507,13 +508,32 @@ nav > ul:last-child{
 
 .dropdown-content {
     display: none;
-    margin-top: 40px;
-    padding: 12px 16px;
+    margin-top: 4rem;
 }
   
-.question:hover .dropdown-content {
+.question:hover .dropdown-content{
     display: block;
 }
+
+.question .float-right{
+    position: relative;
+}
+
+.question .float-right .fa-chevron-up{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.question:hover .fa-chevron-up{
+    display: block;
+}
+
+.question:hover .fa-chevron-down{
+    display: none;
+}
+
 
 .faq .question:last-child{
     border-bottom: 1px solid gray;
