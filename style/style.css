@@ -275,7 +275,6 @@ nav > ul:last-child{
 
 .vertical-tiers .tier{
     width: calc((100% - 6rem) / 3);
-    height: 1000px;
     border: 1px solid #d0d0d3;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -287,7 +286,7 @@ nav > ul:last-child{
 }
 
 .tier-clm{
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.5rem 7rem;
 }
 
 .tier-clm .period{
