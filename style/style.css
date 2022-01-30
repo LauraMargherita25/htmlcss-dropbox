@@ -363,6 +363,10 @@ nav > ul:last-child{
     border: 1px solid black;
 }
 
+.interact-btn:hover{
+    background-color: lightgray;
+}
+
 
 
 
